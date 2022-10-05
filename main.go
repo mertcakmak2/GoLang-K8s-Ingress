@@ -9,8 +9,6 @@ import (
 func main() {
 	router := gin.Default()
 	router.GET("/", hello)
-	// router.GET("/test", test)
-
 	router.GET("/api/hello", hello)
 	router.GET("/api/test", test)
 	router.GET("/api/users", users)
